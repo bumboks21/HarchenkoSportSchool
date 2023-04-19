@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd050fd0610147f3a413891070080cb3" Name="Diagram1">
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Breed" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.DivisionOfTheGroup" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.DosageFood" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Feeding" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Food" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Group" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Horse" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.InfoCoach" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.InfoGroup" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.InfoSportsman" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Role" Width="1.5" PointX="7.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Space" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Suit" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.sysdiagrams" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.Training" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseSchoolPPModel.User" Width="1.5" PointX="10" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Horse__BreedID__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__InfoGroup__Divis__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Feeding__DosageF__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Feeding__FoodID__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Feeding__HorseID__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Group__CoachID__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__InfoGroup__Group__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Training__GroupI__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Horse__SuitID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__InfoGroup__Horse__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__InfoGroup__Sport__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__User__UserRoleID__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseSchoolPPModel.FK__Training__SpaceI__5629CD9C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
